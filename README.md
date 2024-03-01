@@ -1,7 +1,7 @@
 # landmark-classifier
 ## Google Landmarks Classification
 
-This project aims to classify images using machine learning and deep learning models trained on the Google Landmarks Dataset. The dataset consists of images of various landmarks from around the world. It utilize both traditional machine learning and deep learning techniques to classify these images accurately.
+This project aims to classify images using machine learning and deep learning models trained on the Google Landmarks Dataset. The dataset consists of images of various landmarks from around the world. It utilizes both traditional machine learning and deep learning techniques to classify these images accurately.
 
 ## Overview
 
@@ -45,6 +45,16 @@ Ensure you have the following dependencies installed:
 - `detect_landmarks.py`: Main script containing code for data preprocessing, model development, training, evaluation, and inference.
 
 ## Diagrams & Outputs
-![Number of Images Histogram](images/imageCountHist.png) ![Landmark ID Histogram](images/landmarkIDHist.png)
+Displays the number of images that the model was able to sort and how often they occur
+![Number of Images Histogram](images/imageCountHist.png) 
+
+Displays the landmark IDs that appear between the range set in the program
+![Landmark ID Histogram](images/landmarkIDHist.png)
+
+Sample images pulled from the dataset
 ![Sample Images from Dataset](images/sampleImages.png)
-![Epoch Image](images/training.png) ![Accuracy and Error](images/accuracyAndErrors.png)
+
+8 epochs were run on the dataset for training its accuracy
+![Epoch Image](images/training.png) 
+output of the accuracy and error rate of the model
+![Accuracy and Error](images/accuracyAndErrors.png)
