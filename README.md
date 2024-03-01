@@ -13,6 +13,9 @@ The project is structured as follows:
 4. **Evaluation**: Evaluate the trained models on validation data to assess their performance.
 5. **Inference**: Test the trained models on unseen data and visualize the results.
 
+## Dataset
+[Google Landmarks Dataset V2](https://github.com/cvdfoundation/google-landmark)
+
 ## Dependencies
 
 Ensure you have the following dependencies installed:
@@ -39,5 +42,9 @@ Ensure you have the following dependencies installed:
 
 ## Code Structure
 
-- `train.csv`: Metadata file containing information about images and their corresponding labels.
 - `detect_landmarks.py`: Main script containing code for data preprocessing, model development, training, evaluation, and inference.
+
+## Diagrams & Outputs
+![Number of Images Histogram](images/imageCountHist.png) ![Landmark ID Histogram](images/landmarkIDHist.png)
+![Sample Images from Dataset](images/sampleImages.png)
+![Epoch Image](images/training.png) ![Accuracy and Error](images/accuracyAndErrors.png)
