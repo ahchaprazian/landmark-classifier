@@ -49,12 +49,17 @@ Displays the number of images that the model was able to sort and how often they
 ![Number of Images Histogram](images/imageCountHist.png) 
 
 Displays the landmark IDs that appear between the range set in the program
+
 ![Landmark ID Histogram](images/landmarkIDHist.png)
 
 Sample images pulled from the dataset
+
 ![Sample Images from Dataset](images/sampleImages.png)
 
 8 epochs were run on the dataset for training its accuracy
+
 ![Epoch Image](images/training.png) 
+
 output of the accuracy and error rate of the model
+
 ![Accuracy and Error](images/accuracyAndErrors.png)
